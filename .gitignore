@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+myenv/
+
+# Node modules and cache
+node_modules/
+.cache/
+
+# SQLite database
+*.sqlite3
+
+# Environment files
+*.env
