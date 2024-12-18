@@ -1,0 +1,65 @@
+.admin-dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 110vh; /* Full viewport height */
+
+    padding: 20px;
+}
+
+.admin-dashboard h1 {
+    margin-top: -290px;
+    font-family: 'Caveat', sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.admin-button {
+    font-size: 18px;
+    padding: 12px 24px;
+    margin: 10px;
+    background-color: #4CAF50; /* Green button background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+button:focus {
+    outline: none;
+}
+
+.admin-dashboard button:nth-child(2) {
+    background-color: #f44336; /* Red for "View Order History" */
+}
+
+.admin-dashboard button:nth-child(2):hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
+
+.admin-dashboard button:active {
+    transform: scale(0.98); /* Slight shrink on button press */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    .admin-dashboard {
+        padding: 10px;
+    }
+
+    .admin-dashboard h1 {
+        font-size: 28px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}

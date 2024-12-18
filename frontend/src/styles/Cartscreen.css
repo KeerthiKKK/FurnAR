@@ -1,0 +1,209 @@
+.cart-container {
+    font-family: 'Garamond';
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to right, #0b1414, #172323, #223232);
+
+}
+
+.cart-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.cart-h2{
+    color: #000000;
+    font-size: xx-large;
+     font-family: 'Garamond';
+}
+.cart-p{
+    font-size: x-large;
+    font-weight:900;
+     font-family: 'Garamond';
+}
+.cart-content {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(25, 52, 65), rgb(60, 79, 80));
+}
+
+.cart-items {
+    width: 95%; /* Adjust width for the items column */
+    max-height: 120vh; /* Limit height to create a scrolling effect */
+    overflow-y: auto; /* Enable scrolling */
+    padding: 30px; /* Add padding */
+    margin-right: 40px; /* Space between items and summary */
+}
+
+.cart-item {
+    border: 1px solid #8f8d8d;
+    border-radius: 8px;
+    margin-bottom: 35px;
+    padding: 30px;
+    background-image: linear-gradient(to right, rgb(60, 79, 80), rgb(166, 169, 170), rgb(60, 79, 80));
+    cursor: pointer;
+}
+
+.cart-item:hover {
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(25, 52, 65), rgb(60, 79, 80));
+}
+
+.cart-item-details {
+    display: flex;
+    align-items: center; 
+}
+
+.cart-item-image {
+    border-radius: 8px;
+    max-width: 300px; /* Set a fixed width for the image */
+    margin-right: 30px; /* Space between image and text */
+}
+
+.cart-item-link {
+    color: #000000;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: x-large;
+    margin-right: 10px; /* Space after product name */
+    text-align: center;
+}
+
+.cart-item-price {
+    font-size: xx-large;
+    font-weight: bold;
+    color: #05253a;
+    margin: 30px; /* Space after price */
+}
+
+.cart-quantity-select {
+    margin-top: 20px;
+    padding: 10px; /* Adjust padding */
+    border-radius: 10px; /* Round the corners */
+    font-family: 'Dancing', cursive;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    background-color: grey; /* Background color */
+    border: none; /* No border */
+    margin-right: 20px; /* Space after quantity selector */
+    width: 80px; /* Fixed width for consistency */
+    text-align: center;
+}
+
+.cart-quantity-select:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.cart-remove-button {
+    background-color: grey;
+    border: none;
+    color: #222121;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.cart-remove-button:hover {
+    background-color: rgb(143, 21, 21);
+    color: #000000;
+}
+
+.cart-summary {
+    margin-top: 10px;
+    width: 40%; /* Fixed width for the summary column */
+}
+.summary-box {
+    margin-left: -40px;
+    padding-bottom: 50px;
+    margin-right: 20px;
+    border: 1px solid #9e9c9c; /* Border for the box */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the box */
+    background-image: linear-gradient(to right, rgb(60, 79, 80), rgb(166, 169, 170), rgb(60, 79, 80));
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    margin-top: 20px; /* Space above the summary box */
+    color: #0a1e2c;; /* Text color inside the box */
+}
+
+.cart-summary .summary {
+    
+    font-size: small;
+    margin-left: 50px;
+    border: 1px solid #eaeaea; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Padding inside the summary box */
+    background-color: #661a1a; /* Background color for the summary */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+.cart-summary .summary-item {
+    font-size: small;
+    margin-bottom: 15px; /* Space between summary items */
+}
+
+.cart-summary .summary-item h2 {
+    font-family: 'Dancing Script';
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 200px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+
+}
+.cart-summary .summary-item h1 {
+    color: #000000;
+}
+.cart-summary .summary-item p{
+    font-size:large
+}
+
+.total-price {
+    font-size: 1.67rem;
+    text-align: center; /* Font size for total price */
+    font-weight: bold; /* Bold text for emphasis */
+    color: #000000; /* Color for the total price */
+    margin: 10px 0; /* Margin for spacing above and below */
+}
+
+.cart-checkout-button {
+    width: 100%; /* Full width button */
+    padding: 15px; /* Button padding */
+    border-radius: 5px; /* Rounded corners for the button */
+    background-color: #0a1e2c; /* Primary button color */
+    color: #ffffff; /* Text color */
+    font-size: 1.2rem; /* Font size for button text */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.cart-checkout-button:hover {
+    background-color: #000000; /* Darker color on hover */
+}
+
+/* Add this to your CSS file */
+.msg { 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to right, rgb(60, 79, 80), rgb(166, 169, 170), rgb(60, 79, 80));
+    color: #333; /* Dark text color */
+    padding: 15px; /* Padding inside the message box */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #b0c4de; /* Light gray-blue border */
+    font-size: 16px; /* Size of the text */
+    text-align: center; /* Center align the text */
+    margin: 20px 0; /* Add some margin on the top and bottom */
+}
+
+.msg a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline from the link */
+}
+
+.msg a:hover {
+    text-decoration: underline; /* Underline the link on hover */
+}

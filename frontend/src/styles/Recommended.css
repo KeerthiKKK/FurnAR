@@ -1,0 +1,37 @@
+.recommended-flex {
+  display: flex;
+  margin-left: 21rem;
+  margin-top: 30px;
+  
+
+}
+
+.recommended-flex button{
+
+  padding: 15px;
+  color:black;
+  background-image: linear-gradient(to right,rgb(21, 46, 61),rgb(33, 78, 100),rgb(119, 147, 150));
+  border-color: rgb(0, 0, 0);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:20px;
+  margin-right: 10px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  
+
+
+}
+.recommended-title {
+  margin-left: 21.5rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 35px;
+  font-family: 'Dancing script';
+  
+}
+
+.recommended-flex button:hover{
+  
+  background-image: linear-gradient(to right,rgb(119, 147, 150),rgb(33, 78, 100),rgb(21, 46, 61));
+}

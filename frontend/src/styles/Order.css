@@ -1,0 +1,133 @@
+
+  
+  .order-container {
+    font-family: "Garmond";
+    font-size: larger;
+    font-weight: 900;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-image: linear-gradient(to right,rgb(60, 79, 80),rgb(161, 166, 168),rgb(60, 79, 80));
+    max-width: 1200px;
+    margin: 50px auto;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-details {
+    flex: 2;
+    padding: 10px;
+  }
+  
+  .shipping-section,
+  .payment-section,
+  .items-section {
+    margin-bottom: 20px;
+  }
+  
+  .order-h2 {
+    font-family: "Caveat";
+    font-size:35px;
+    color: #031a11;
+    margin-bottom: 10px;
+  }
+  
+  .order-p {
+    margin-left: 70px;
+    color: #000000;
+  }
+  
+  .order-items-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid;
+  }
+  
+  .order-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+  }
+  
+  .item-image {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid #0a0a0a;
+  }
+  
+  .item-name {
+    flex: 1;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #020202;
+    font-size: 30px;
+  }
+  
+  .item-name:hover {
+    text-decoration: underline;
+  }
+  
+  .item-price {
+    flex: 1;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #020202;
+    font-size: 20px;
+    border: #020202;
+  }
+  
+  .order-summary {
+    font-size: larger;
+    margin:20px;
+    flex: 1;
+    padding: 10px;
+     background-image: linear-gradient(to right,rgb(60, 79, 80),rgb(161, 166, 168),rgb(60, 79, 80));
+    border: 1px solid #000000;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .summary-item {
+    margin-top: 30px;
+    color: rgb(7, 7, 7);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+  
+  .summary-item.total {
+    font-size: 45px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 45px;
+  }
+  
+  .place-order-button {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #000000;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .place-order-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .place-order-button:hover:not(:disabled) {
+    background-color: #3b3b3b;
+  }
+  

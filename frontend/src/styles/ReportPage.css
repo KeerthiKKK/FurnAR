@@ -1,0 +1,151 @@
+/* Main Report Page */
+.report-page {
+  padding: 20px;
+  background-image: linear-gradient(to right, #0b1414, #172323, #223232);
+  min-height: 100vh; /* Ensure the container fills the viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Report Content Styling */
+.report-content {
+  color: white;
+  margin-top: 40px;
+  font-family: 'Garamond'; /* Font for the report content */
+  font-size: large;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px; /* Maximum width for large screens */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Title Styling */
+.report-content h1 {
+  text-align: center;
+  color: #0b1414;
+  font-family: "Caveat", sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+/* Filter Dropdown */
+.filter-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.filter-container select {
+  padding: 5px;
+  font-size: 1rem;
+}
+
+/* Flex Layout for Content (Orders on the Left and Top Products on the Right) */
+.content-grid {
+  display: flex;
+  justify-content: space-between; /* Spread the sections apart */
+  gap: 30px; /* Space between the two sections */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.filtered-orders,
+.top-products {
+  flex: 1; /* Each section takes equal space */
+  min-width: 300px; /* Prevent sections from being too small */
+}
+
+/* Styling the Orders Table */
+.report-grid {
+  margin-top: 20px;
+}
+
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.order-table th, .order-table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.order-table th {
+  background-color: #333;
+}
+
+.order-table td {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Styling for Top Selling Products */
+.top-products {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.top-products h2 {
+  font-size: 1.8rem;
+  font-family: 'Garamond', serif;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.top-products ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.top-products li {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.top-products li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.top-products li strong {
+  font-size: 1.4rem;
+  color: #f1f1f1;
+  margin-bottom: 10px;
+}
+
+.top-products li span {
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .content-grid {
+    flex-direction: column; /* Stack the sections vertically on smaller screens */
+    gap: 20px;
+  }
+
+  .top-products,
+  .filtered-orders {
+    width: 100%;
+  }
+
+  .order-table th, .order-table td {
+    font-size: 0.9rem; /* Smaller text on mobile */
+  }
+
+  .top-products li {
+    padding: 10px;
+  }
+}

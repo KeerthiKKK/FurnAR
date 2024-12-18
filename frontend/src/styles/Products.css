@@ -1,0 +1,71 @@
+/* Products.css */
+.products-container {
+    padding: 20px;
+    text-align: center; /* Center align the titles */
+    background-image: linear-gradient(to right, #0b1414, #172323, #223232);
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Equal spacing between items */
+    margin-left: 250px;
+}
+
+.product-card {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly less transparent for better visibility */
+    border: 1px solid #ddd;
+    border-radius: 8px; /* More rounded corners for a softer look */
+    padding: 20px; /* Increased padding for better content spacing */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow */
+    transition: transform 0.2s, box-shadow 0.2s; /* Added transition for box-shadow */
+    color: #000; /* Dark text for better contrast */
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Slightly scale on hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.producth1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 34px;
+    margin-bottom: 20px; /* Space below the title */
+}
+
+/* Image styling */
+.product-image {
+    width: 100%; /* Make the image fill the card width */
+    height: 200px; /* Set a fixed height for the image */
+    object-fit: cover; /* Maintain the aspect ratio */
+    border-radius: 5px; /* Rounded corners for the image */
+    margin-bottom: 15px; /* Space between image and text */
+}
+
+.product-name {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 1.2rem; /* Adjusted for better readability */
+    margin-bottom: 10px; /* Space below the product name */
+}
+
+/* Optional: Media queries for responsiveness */
+@media (max-width: 768px) {
+    .products-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust for smaller screens */
+    }
+
+    .product-card {
+        padding: 15px; /* Slightly reduced padding on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .products-grid {
+        grid-template-columns: 1fr; /* Single column on very small screens */
+    }
+
+    .product-card {
+        padding: 10px; /* Further reduce padding for tiny screens */
+    }
+}

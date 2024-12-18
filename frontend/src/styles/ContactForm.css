@@ -1,0 +1,55 @@
+/* Form Styling */
+.form {
+    display: flex;
+    flex-direction: column;
+    /* Space between each input field */
+    max-width: 300px; /* Adjust the width of the form */
+    width: 100%;
+    margin: 80px auto 0; /* Center the form horizontally and add space at the top */
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent background */
+    border-radius: 15px;
+    padding: 30px;
+  }
+  
+  /* Input and Textarea Styling */
+  .input, .inputmsg {
+    padding: 10px; /* Adjust padding for better appearance */
+    font-size: 16px;
+    border: 2px solid #0a1047;
+    border-radius: 15px;
+    width: 100%; /* Full width of the form container */
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+  }
+  
+  /* Specific Styling for Textarea */
+  .inputmsg {
+    height: 100px; /* Adjust the height of the textarea */
+    resize: none; /* Prevents the textarea from being resized */
+  }
+  
+  /* Button Styling */
+  .btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #00060c;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center; /* Center the button horizontally within the form */
+  }
+  
+  /* Button Hover Effect */
+  .btn:hover {
+    background-color: #1e867e;
+  }
+  
+  /* Label Styling */
+  .form label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #aca6a6; /* Dark text color to contrast with the background */
+    margin-bottom: 5px; /* Space between the label and the input field */
+  }
+  

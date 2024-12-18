@@ -1,0 +1,17 @@
+
+.reg-form-box {
+    background: #686565; /* Background color for the form box */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 20px; /* Padding inside the box */
+    width: 100%;
+    max-width: 500px; /* Responsive width */
+    box-sizing: border-box; /* Include padding in width calculation */
+    text-align: center; /* Center align text and content */
+    margin-left: 450px;
+    margin-top: 10px;
+}
+
+.regcontainer{
+    background-image: linear-gradient(to right, #0b1414, #172323, #223232);
+}

@@ -1,0 +1,130 @@
+/* Back Button Styles */
+.backbtn {
+    padding-top: 10px; /* Adds space above the button */
+    margin-left: 20px;
+    text-decoration: none; /* Removes the underline from the link */
+    color: inherit; /* Inherits the color from the parent element */
+    display: inline-flex; /* Makes it inline with the icon */
+    align-items: center; /* Centers the icon vertically */
+}
+.prodetails{
+    background-image: linear-gradient(to right, #0b1414, #172323, #223232);
+}
+.backbtn svg {
+    margin-right: 5px; /* Adds space between the icon and text */
+}
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Product Details Container */
+.product-details {
+    display: flex;
+    align-items: flex-start; /* Align items to the start */
+    justify-content: center; /* Center horizontally */
+    margin-top: 0px; /* Add spacing above the product details */
+    padding: 50px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(25, 52, 65), rgb(60, 79, 80));
+    border-radius: 15px; /* Rounded corners */
+}
+
+/* Product Image Styles */
+.product-image {
+    margin-top: 60px;
+    max-width: 55%;
+    border-radius: 15px; /* Rounded corners for the image */
+    box-shadow: 0 14px 18px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    margin-right: 20px; /* Space between image and text */
+}
+
+/* Product Info Styles */
+.product-info {
+    color: #000000; /* White text for product details */
+    flex: 1; /* Allow product info to take remaining space */
+    margin-top: -1px;
+    margin-left: 50px;
+}
+
+.product-info h2 {
+  
+    font-size: 2rem;
+    font-family: 'Garamond';
+}
+
+.product-info h3 {
+    font-family: "Caveat";
+    font-size: 3rem; /* Larger font size for product name */
+    margin-bottom: 30px; /* Spacing below the title */
+}
+
+.product-info p {
+    font-size: 1.2rem;
+    font-weight: normal;
+    font-family: "Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"; /* Larger font size for price and description */
+    margin: 10px 0; /* Spacing for paragraphs */
+}
+
+/* Product Stock Styles */
+.product-stock {
+    flex: 0.5;
+    padding-left: 10px;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium';
+    color: #000;
+    margin-top: 9px;
+    padding-left: 30px;
+}
+
+.product-stock p {
+    font-size: 20px;
+    color: rgb(12, 12, 12);
+    font-family: 'Dancing';
+}
+
+.product-stock h2 {
+    font-family: "Caveat";
+    font-size: 3rem; /* Larger font size for product name */
+    margin-bottom: 10px;
+}
+
+/* Button Styles */
+.cartbtn, .threesixtybtn, .qty {
+    padding: 10px;
+    padding-right: 35px;
+    padding-left: 35px;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Dancing';
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    background-color: #f0f0f0; /* Add a background color */
+    margin-right: 10px; /* Add space between buttons */
+}
+
+.cartbtn:hover, .threesixtybtn:hover , .Qty:hover{
+    color: rgb(0, 0, 0);
+    background-color: #01252e; /* Change background on hover */
+}
+
+.Qty {
+    
+    padding: 0px; /* Adjust padding */
+    border-radius: 15px;
+    font-family: 'Dancing';
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    background-color: #f0f0f0; /* Same background color as buttons */
+    border: none; /* Border for quantity selector */
+    margin-left: 1px; /* Space to the left of the quantity selector */
+    width: 80px; /* Fixed width for consistency */
+    text-align: center; /* Center the text within the selector */
+}
+
+
+
+/* Add additional responsive design styles as needed */

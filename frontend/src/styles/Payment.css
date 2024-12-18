@@ -1,0 +1,84 @@
+
+  
+  .payment-container {
+    font-family: "Caveat";
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to right,rgb(60, 79, 80),rgb(161, 166, 168),rgb(60, 79, 80));
+  }
+  
+  .payment-h1 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  .payment-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .pay-label {
+    font-family: 'Garamond';
+    font-weight: 800;
+    display: block;
+    margin-left: 5px;
+    font-size: 26px;
+    color: #011a2b;
+    margin-bottom: 10px;
+
+  }
+  
+  .radio-group {
+    font-family: 'Garamond';
+    font-size: x-large;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .radio-group input[type='radio'] {
+    
+    margin-right: 5px;
+  }
+  
+  .pay-btn-primary {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    background-image: linear-gradient(to right,rgb(0, 0, 0),rgb(255, 255, 255),rgb(0, 0, 0));
+    background-color: #00060c;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pay-btn-primary:hover {
+    cursor: pointer;
+    background-image: linear-gradient(to right,rgb(255, 255, 255),rgb(255, 255, 255),rgb(255, 254, 254));
+  }
+  
+  .backbtn {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+  }
+  
+  .icon-back {
+    margin-right: 8px;
+  }
+  
+  .backbtn:hover {
+    text-decoration: underline;
+  }
+  

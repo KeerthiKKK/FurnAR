@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Grey+Qo&display=swap');
+
+body .navbar {
+    background: 0;
+    padding: 25px 60px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #ddd; /* This creates the horizontal line */
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-logo {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Dancing Script';
+    font-size: 34px;
+    margin-left: 35px;
+}
+
+.nav-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    align-items: center; /* Ensure items align in the center vertically */
+    margin: 0;
+    padding-left: 0;
+    font-family: 'Caveat';
+}
+
+.navbar-item {
+    margin: 0 25px; /* Add equal margin between navbar items */
+}
+
+.navbar-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 28px;
+    padding: 10px;
+    font-family: "Caveat";
+}
+
+.navbar-link:hover {
+    color: #928d8de3;
+}
+
+.search-input {
+    border-radius: 30px;
+    padding: 10px;
+    padding-right: 40px;
+    margin-left: 150px; /* Adjusted value for cleaner alignment */
+}
+
+.navbar-auth {
+    display: flex;
+    align-items: center; /* Ensure icons are aligned with the navbar items */
+    margin-left: 50px; /* Adds a gap between "Contact" and the icons */
+}
+
+.navbar-auth a, .navbar-auth .auth-button {
+    margin-left: 25px; /* Space between icons */
+}
+
+.auth-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.auth-button svg {
+    display: block;
+    fill: #ffffff; /* Make sure the icons are white */
+}
+
+.navbar-logo, .navbar-menu, .navbar-auth {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-item:last-child {
+    margin-right: 0;
+}
+
+/* Add margin between the last navbar item (Contact) and the icons */
+.navbar-item:last-child {
+    margin-right: 0px; /* Adjust this value to control the gap */
+}
+
+/* Login and Logout Button Styles */
+.navbar-login-btn, .navbar-logout-btn {
+    background-color: #4CAF50; /* Green background */
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 25px; /* Add spacing between button and other elements */
+    transition: background-color 0.3s ease;
+}
+
+.navbar-login-btn:hover, .navbar-logout-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.navbar-logout-btn {
+    background-color: #f44336; /* Red for logout */
+}
+
+.navbar-logout-btn:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}

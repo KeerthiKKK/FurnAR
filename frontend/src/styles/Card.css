@@ -1,0 +1,122 @@
+/* Card container */
+.card {
+    width: 50%;
+    max-width: 230px;
+    background-image: linear-gradient(to right,rgb(0, 0, 0),rgb(25, 52, 65),rgb(60, 79, 80));
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-color: #424141;
+  }
+  
+  /* Card hover effect */
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Card image */
+  .card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #000000;
+  }
+  
+  /* Card details container */
+  .card-details {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+  
+  /* Card title */
+  .card-title {
+    font-size: 18px;
+    font-weight: 600;
+    font-family:'Franklin Gothic Medium';
+    color: #fff7f7;
+    
+    margin-bottom: 5px;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* Rating and reviews section */
+  .card-reviews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    padding: 2px;
+  }
+  
+  /* Total reviews count */
+  .total-reviews {
+    font-size: 14px;
+    margin-left: 8px;
+    color: #fffffe;
+  }
+  
+  /* Price and bag icon section */
+  .card-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+  }
+
+  .rating-value {
+    margin-right: 5px; /* Adjust this value as needed */
+  }
+  
+  /* Price display */
+  .price {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  
+  /* Bag icon */
+  .bag {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #cfcbcb;
+    border-radius: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .bag:hover {
+    background-color: #070707;
+    color: white;
+  }
+  
+  .bag-icon {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .aricon{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+
+  .aricon:hover{
+    background-color: #070707;
+    color: white;
+  }

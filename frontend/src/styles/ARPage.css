@@ -1,0 +1,9 @@
+.scanqr{
+    font-family: 'Dancing Script';
+    align-items: center;
+    text-align: center;
+    color:white
+}
+.styless{
+    background-image: linear-gradient(to right, #0b1414, #172323, #223232);
+}
