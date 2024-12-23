@@ -1,0 +1,18 @@
+# Furniture Website with AR Enabled
+
+This project is a furniture website built with ReactJS and Django, featuring Augmented Reality (AR) capabilities, 3D views of products, and the ability to view products in real space through QR codes. The website allows users to explore furniture products interactively and visualize how they would look in their own space.
+
+## Features
+
+- **3D Product Views**: View furniture products in 3D to explore their details from different angles.
+- **Augmented Reality (AR)**: Use AR to view furniture products in real space through your device’s camera.
+- **QR Code Integration**: Scan a QR code to view products in your environment via AR.
+- **User-Friendly Interface**: Built with ReactJS for a responsive and dynamic user experience.
+- **Backend with Django**: Backend server built with Django to manage user data and product information.
+
+## Technologies Used
+
+- **Frontend**: ReactJS
+- **Backend**: Django
+- **AR/3D Features**: [Three.js](https://threejs.org/) for 3D rendering, [AR.js](https://ar-js-org.github.io/AR.js/) or [Google’s ARCore](https://developers.google.com/ar) for AR functionality.
+- **QR Code**: [QR Code Library](https://www.npmjs.com/package/qrcode) for generating and scanning QR codes.
